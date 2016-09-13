@@ -1,0 +1,36 @@
+// custom variables and override bootstrap variables
+
+$body-bg:						#333;
+$text-color:					#fff;
+
+// color-name: http://name-of-color.com/
+$brand-primary:					#333;
+$brand-danger:					#ba6767;
+$brand-success:					#67af45;
+$link-color:					$text-color;
+$flamingo:						#f15b26;
+
+$font-size-base:				16px;
+$line-height-base:				1.1875;
+$font-size-h1:					ceil($font-size-base * 3.75); //~60px
+$font-size-h2:					ceil($font-size-base * 3.125); //~50px
+$font-size-h3:					ceil($font-size-base * 2.5); //~40px
+$font-size-h4:					ceil($font-size-base * 2.25); //~36px
+$font-size-h5:					ceil($font-size-base * 1.875); //~30px
+$font-size-h6:					ceil($font-size-base * 1.125); //~18px
+
+//$container-large-desktop:		1170px;
+
+// inputs
+$input-bg:						#207172;
+$input-color:					$text-color;
+$input-color-placeholder:		$input-color;
+
+$input-border-radius:			10px;
+$border-radius-base:			10px;
+$border-radius-large:			0;
+$border-radius-small:			0;
+
+$font-family-sans-serif:		Quicksand, Arial, sans-serif;
+$font-family-sans-serif-alt:	Questrial, Arial, sans-serif;
+$headings-font-family:			$font-family-sans-serif-alt;

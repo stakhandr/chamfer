@@ -1,0 +1,39 @@
+// buttons
+
+.btn{
+	padding: 18px 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	min-width: 208px;
+	margin: 0 20px;
+	box-shadow: 2px 2px 6px rgba(#000, .26);
+}
+.btn-danger{
+	background: #cb8181; /* Old browsers */
+	background: -moz-linear-gradient(top, #cb8181 0%, #9f4f53 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #cb8181 0%,#9f4f53 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #cb8181 0%,#9f4f53 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb8181', endColorstr='#9f4f53',GradientType=0 ); /* IE6-9 */
+	&:hover{
+	background: #9f4f53; /* Old browsers */
+	background: -moz-linear-gradient(top, #9f4f53 0%, #cb8181 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #9f4f53 0%,#cb8181 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #9f4f53 0%,#cb8181 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9f4f53', endColorstr='#cb8181',GradientType=0 ); /* IE6-9 */
+	}
+}
+
+.btn-success{
+	background: #81c356; /* Old browsers */
+	background: -moz-linear-gradient(top, #81c356 0%, #4a983a 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #81c356 0%,#4a983a 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #81c356 0%,#4a983a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#81c356', endColorstr='#4a983a',GradientType=0 ); /* IE6-9 */
+	&:hover{
+	background: #4a983a; /* Old browsers */
+	background: -moz-linear-gradient(top, #4a983a 0%, #81c356 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #4a983a 0%,#81c356 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #4a983a 0%,#81c356 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a983a', endColorstr='#81c356',GradientType=0 ); /* IE6-9 */
+	}
+}
